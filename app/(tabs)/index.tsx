@@ -11,7 +11,8 @@ export default function Events() {
     <>
       <Stack.Screen options={{ title: 'Events' }} />
 
-      <EventListItem event={event} />
+      <EventListItem event={events[1]} />
+      <EventListItem event={events[2]} />
 
       <View className="gap-3 p-3">
         <View className="flex-row">
