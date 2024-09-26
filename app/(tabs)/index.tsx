@@ -7,9 +7,12 @@ export default function Events() {
     <>
       <Stack.Screen options={{ title: 'Events' }} />
       <Text>This is a test</Text>
-      <Text>Wed 13, Sep · 19:30 CET</Text>
-      <Text style={{ fontSize: 30, fontWeight: 'bold' }}>This is a Title</Text>
-      <Text>This is a City Name</Text>
+      <Text className="text-lg font-semibold uppercase text-amber-800">
+        Wed 13, Sep · 19:30 CET
+      </Text>
+      {/*<Text style={{ fontSize: 30, fontWeight: 'bold' }}>This is a Title</Text>*/}
+      <Text className="text-5xl font-bold">This is a Title</Text>
+      <Text className="text-gray-700">This is a City Name</Text>
 
       {/* Events Image */}
       <Image
