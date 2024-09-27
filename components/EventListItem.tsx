@@ -35,7 +35,6 @@ export default function EventListItem({ event }) {
               <Text className="text-lg font-semibold uppercase text-amber-800">
                 {dayjs(event.datetime).format('ddd, D MMM')} ·{' '}
                 {dayjs(event.datetime).format('h:mm A')}
-                {/*{event.datetime} · 19:30 CET*/}
               </Text>
               <Text className="text-xl font-bold">{event.title}</Text>
               <Text className="text-gray-700">{event.location}</Text>
